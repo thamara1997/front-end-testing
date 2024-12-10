@@ -19,13 +19,13 @@ export default function Page({
     );
   });
 
-  const dates = ["2024–05–27", "2023–12–31", "2024–01–01"];
+  // const dates = ["2024–05–27", "2023–12–31", "2024–01–01"];
 
-  const sortedDates = dates.sort((a, b) => {
-    return moment(b, "YYYY-MM-DD").diff(moment(a, "YYYY-MM-DD"));
-  });
+  // const sortedDates = dates.sort((a, b) => {
+  //   return moment(b, "YYYY-MM-DD").diff(moment(a, "YYYY-MM-DD"));
+  // });
 
-  console.log(sortedDates);
+  // console.log(sortedDates);
   // Output: ["2024-05-27", "2024-01-01", "2023-12-31"]
 
   console.log(sortedTasks);
